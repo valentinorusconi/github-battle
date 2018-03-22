@@ -52,3 +52,26 @@ li{
   margin: 10px;
   font-size: 20px;
 }
+
+.nav{
+  display: flex;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.nav li{
+  margin-right: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #d0021b;
+}
+
+.home-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
